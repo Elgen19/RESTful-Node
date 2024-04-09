@@ -1,0 +1,6 @@
+{
+    "env":{
+        "MONGODB_PW": "elgen",
+        "JWT_KEY": "elgens"
+    }
+}
