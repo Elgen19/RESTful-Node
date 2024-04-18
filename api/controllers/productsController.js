@@ -48,7 +48,7 @@ exports.create_product =  (req, res, next)=>{
             price: result.price,
             _id: result.id,
             request: {
-                type: 'POST',
+                type: 'GET',
                 url: 'http://localhost:3000/products/' + result.id
             }
         }
